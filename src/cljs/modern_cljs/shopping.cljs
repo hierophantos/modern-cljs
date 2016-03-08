@@ -34,7 +34,7 @@
                      [quantity price tax discount]
                      #(set-value! (by-id "total") (.toFixed % 2)))))
 
-(/ 53 7)
+
 
 (defn ^:export init []
   (when (and js/document
